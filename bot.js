@@ -20,7 +20,7 @@ stream.on("tweet", parse);
 ////////// Functions \\\\\\\\\\
 function parse(tweet) {
 	var text = (tweet.entities.urls.length > 0) ? tweet.entities.urls[0].expanded_url : tweet.text
-	var domain = text.replace(/http(s?):\/\/|@domaincheckbot /gi, "");
+	var domain = text.replace(/http(s?):\/\/|@.+ /gi, "");
 
 	if (validator.isFQDN(domain)) {
 		check(domain)
