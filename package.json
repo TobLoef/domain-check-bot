@@ -1,0 +1,13 @@
+{
+  "name": "twitter-domain-checker",
+  "version": "1.0.0",
+  "description": "A Twitter bot to check domain availability.",
+  "main": "bot.js",
+  "author": "Tobias Løfgren",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "request-promise": "^2.0.1",
+    "twit": "^2.2.3",
+    "validator": "^5.1.0"
+  }
+}
