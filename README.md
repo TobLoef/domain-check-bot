@@ -13,4 +13,4 @@ If you want to run this on your own machine, you'll need a keys.json file in the
 }
 ```
 
-If you find a bug or have a suggestion, feel free to open an issues.
+If you find a bug or have a suggestion, feel free to open an issue.
